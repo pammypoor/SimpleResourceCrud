@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseReporter.Web", "src\ExpenseReporter.Web\ExpenseReporter.Web.csproj", "{1FEA2DC6-A7E7-4EB5-A701-C2F4B8E7D7ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseReporter.Web", "src\ExpenseReporter.Web\ExpenseReporter.Web.csproj", "{1FEA2DC6-A7E7-4EB5-A701-C2F4B8E7D7ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29FE3007-F723-49B5-9537-792A5E252F25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3B88CEC3-851B-42A1-9D0B-E8BB8B2432F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseReporter.Tests", "tests\ExpenseReporter.Tests\ExpenseReporter.Tests.csproj", "{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseReporter.Tests", "tests\ExpenseReporter.Tests\ExpenseReporter.Tests.csproj", "{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseReporter.Core", "src\ExpenseReporter.Core\ExpenseReporter.Core.csproj", "{7C858C31-44C2-44C1-983E-EEA787DE624E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseReporter.Application", "src\ExpenseReporter.Application\ExpenseReporter.Application.csproj", "{74678FFC-7616-4138-9473-0F3CAABBE3C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C858C31-44C2-44C1-983E-EEA787DE624E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C858C31-44C2-44C1-983E-EEA787DE624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C858C31-44C2-44C1-983E-EEA787DE624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C858C31-44C2-44C1-983E-EEA787DE624E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74678FFC-7616-4138-9473-0F3CAABBE3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74678FFC-7616-4138-9473-0F3CAABBE3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74678FFC-7616-4138-9473-0F3CAABBE3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74678FFC-7616-4138-9473-0F3CAABBE3C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1FEA2DC6-A7E7-4EB5-A701-C2F4B8E7D7ED} = {29FE3007-F723-49B5-9537-792A5E252F25}
 		{11257CC0-1454-45E4-97B2-1BC8C9C6BE7D} = {3B88CEC3-851B-42A1-9D0B-E8BB8B2432F1}
+		{7C858C31-44C2-44C1-983E-EEA787DE624E} = {29FE3007-F723-49B5-9537-792A5E252F25}
+		{74678FFC-7616-4138-9473-0F3CAABBE3C1} = {29FE3007-F723-49B5-9537-792A5E252F25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D92E67A-46D9-42DB-91C8-010C969314EC}
